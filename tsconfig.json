@@ -1,0 +1,22 @@
+// 兼容TypeScript文件，新增tsconfig.json文件
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "esnext",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+    },
+    "include": [
+        "src",
+        "images.d.ts",
+        "styles.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}
